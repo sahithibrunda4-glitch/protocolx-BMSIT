@@ -1,0 +1,104 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f5ff;
+  color: #242447;
+}
+
+header {
+  background: #5146c8;
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+header p {
+  margin-bottom: 0;
+}
+
+main {
+  max-width: 700px;
+  margin: 25px auto;
+  padding: 0 16px;
+}
+
+.panel {
+  background: white;
+  padding: 22px;
+  border-radius: 16px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 15px #2222220c;
+}
+
+input,
+select,
+textarea,
+button {
+  width: 100%;
+  padding: 12px;
+  margin: 7px 0;
+  border: 1px solid #d7d6ed;
+  border-radius: 9px;
+  font: inherit;
+}
+
+button {
+  background: #5146c8;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.item {
+  border: 1px solid #e5e4f5;
+  border-radius: 12px;
+  padding: 15px;
+  margin-top: 12px;
+  overflow-wrap: anywhere;
+}
+
+.item h3 {
+  margin: 5px 0;
+}
+
+.item p {
+  white-space: pre-wrap;
+}
+
+.item small {
+  color: #686887;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+}
+
+.actions button {
+  flex: 1;
+}
+
+.done {
+  opacity: 0.65;
+  background: #effaf1;
+}
+
+.done h3 {
+  text-decoration: line-through;
+}
+
+.delete {
+  background: #c74455;
+}
+
+#empty {
+  text-align: center;
+  color: #777;
+  padding: 20px 0;
+}
